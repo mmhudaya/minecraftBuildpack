@@ -34,11 +34,13 @@
   },
   "buildpacks": [
     {
+      "url": "heroku/python"
+    },
+    {
       "url": "heroku/jvm"
     },
     {
       "url": "heroku-community/inline"
     }
-    
   ]
 }
